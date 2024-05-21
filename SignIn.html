@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign In</title>
+  <link rel="shortcut icon" href="images/icon.ico" title="Favicon"/>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 px-0 d-none d-sm-block login-img" style="background-image: url(assets/images/bglogin.jpg); background-size: cover;">
+          <div class="brand-wrapper">
+            <img src="assets/images/logo (1).png" alt="logo" class="logo">
+          </div>
+        </div>
+        <div class="col-sm-8 login-section-wrapper">
+          <div class="text-top" style="padding-top: 5%;">
+            <p>Don't have an account? <b>Sign Up</b></p></div>
+          <div class="login-wrapper my-auto">
+            <div class="center">
+             <a href="SignIn.html" class=" btn sign-btn">Sign In</a>
+              <a href="SIgnUp.html"class=" btn signup-btn">Sign Up</a>
+            </div>
+            <form action="#!">
+              <div class="form-group center">
+                <input type="email" name="email" id="email" class="form-control" placeholder="email">
+              </div>
+              <div class="form-group center">
+                <input type="password" name="password" id="password" class="form-control" placeholder="passsword" >
+              </div>
+              
+              <a href="verif.html" class="text-right" style="color: #fff; font-size: 14px;">Forgot password?</a>
+              <div class="center">
+                <a href="#!" class=" btn login-btn">SIgn In</a>
+              </div>
+            </form>
+            <p class="login-wrapper-footer-text">or</p>
+            <div class="center justify">
+              <button class="btn signup-btn-fa"><i class="fa-brands fa-google" style="color: #3b5998;"></i><a style="margin-left: 5px;">Google</a></button>
+              <button class="btn signup-btn-fa"><i class="fa-brands fa-facebook" style="color: #3b5998;"></i><a style="margin-left: 5px;">Facebook</a></button>
+            </div>
+          </div>
+          <p class="text">Protected by reCAPTCHA and subject to the Rhombus Privacy <br> Policy and Terms of Service</p>
+          <a target="_blank" title="user" href="home.html">
+            <i class="fa-solid fa-chevron-left" style="color: #000; margin-right: 1%; margin-left: 8%;">
+                </i><span style="color: #000; margin-right: 8%;  font-size: 12px;"><b>Back</b></span>
+        </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
